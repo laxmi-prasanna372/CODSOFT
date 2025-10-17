@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Prep Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <h1 class="logo">Exam Prep Hub</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tips">Tips</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome To Landing Page</h1>
+            <h2>Prepare Smart, Score High!</h2>
+            <p>Get ready for your exams with the best tips, tricks, and resources.</p>
+            <button id="startBtn">Get Started</button>
+        </div>
+    </section>
+
+
+    <section id="tips" class="tips">
+        <h2>Exam Preparation Tips</h2>
+        <div class="tips-container">
+            <div class="tip-card">
+                <h3>Time Management</h3>
+                <p>Create a study schedule and stick to it.</p>
+            </div>
+            <div class="tip-card">
+                <h3>Practice Tests</h3>
+                <p>Regularly take mock tests to evaluate your performance.</p>
+            </div>
+            <div class="tip-card">
+                <h3>Healthy Routine</h3>
+                <p>Eat well, sleep enough, and stay active to boost concentration.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="resources" class="resources">
+        <h2>Useful Resources</h2>
+        <ul>
+            <li><a href="#">Exam syllabus PDF</a></li>
+            <li><a href="#">Past papers</a></li>
+            <li><a href="#">Video tutorials</a></li>
+            <li><a href="#">Tips from toppers</a></li>
+        </ul>
+    </section>
+    
+<section id="countdown" class="countdown">
+    <h2>Countdown to Your Exam</h2>
+    <div class="timer">
+        <div><span id="days">0</span><p>Days</p></div>
+        <div><span id="hours">0</span><p>Hours</p></div>
+        <div><span id="minutes">0</span><p>Minutes</p></div>
+        <div><span id="seconds">0</span><p>Seconds</p></div>
+    </div>
+</section>
+<section class="top-resources">
+    <button id="openModalBtn">View Top Study Resources</button>
+</section>
+
+<div id="resourcesModal" class="modal">
+    <div class="modal-content">
+        <span id="closeModalBtn" class="close">&times;</span>
+        <h2>Top Study Resources</h2>
+        <ul>
+            <li><a href="#">Official Exam Syllabus</a></li>
+            <li><a href="#">Previous Year Question Papers</a></li>
+            <li><a href="#">Online Video Tutorials</a></li>
+            <li><a href="#">Tips from Top Scorers</a></li>
+            <li><a href="#">Practice Quizzes</a></li>
+        </ul>
+    </div>
+</div>
+
+<footer id="contact">
+    <div class="footer-container">
+        <p>Contact us: info@examprephub.com</p>
+
+        
+        <div class="subscribe">
+            <h3>Subscribe for Exam Updates</h3>
+            <input type="email" id="emailInput" placeholder="Enter your email">
+            <button id="subscribeBtn">Subscribe</button>
+            <p id="subscribeMsg"></p>
+        </div>
+
+        <p>&copy; 2025 Exam Prep Hub. All rights reserved.</p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

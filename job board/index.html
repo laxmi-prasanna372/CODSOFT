@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Board | Find Your Dream Job</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <header>
+    <div class="container">
+      <h1 class="logo">Job Board</h1>
+      <div class="search-box">
+    <span class="search-icon">🔍</span>
+    <input type="text" placeholder="Search jobs...">
+    </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#jobs">Browse Jobs</a></li>
+          <li><a href="#employer">Employer</a></li>
+          <li><a href="#candidate">Candidate</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-buttons">
+        <a href="#" class="login">Log In</a>
+        <a href="#" class="post-job">Post a Job</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>4536+ Jobs listed</h2>
+      <h1>Find your <span>Dream Job</span></h1>
+      <p>We provide online instant job applications with quick approval that suit your skillset.</p>
+      <button class="upload-btn">Upload Your Resume</button>
+      <input type="file" id="resumeinput" accept=".pdf,.doc" style="display: none"/>
+    </div>
+  </section>
+
+
+  <section class="search-section">
+    <form id="searchForm">
+      <input type="text" id="keyword" placeholder="Search keyword..." />
+            <div class="searchbar">
+  <select id="locationSelect">
+    <option value="">Select Location</option>
+    <option>Hyderabad</option>
+    <option>Bengaluru</option>
+    <option>Vijayawada</option>
+    <option>Chennai</option>
+  </select>
+</div>
+
+      <select id="category">
+        <option value="">Select Category</option>
+        <option>IT & Software</option>
+        <option>Design</option>
+        <option>Marketing</option>
+        <option>Finance</option>
+      </select>
+      <button type="submit">Find Job</button>
+    </form>
+  </section>
+
+
+  <section id="jobs" class="job-listings">
+    <h2>Featured Jobs</h2>
+    <select name="type" required>
+        <option value="">Job type</option>
+        <option>Full-time</option>
+        <option>Part-time</option>
+        <option>Contract</option>
+        <option>Internship</option>
+      </select>
+    <div class="jobs-container" id="jobsContainer"></div>
+    <div class="jobs-grid">
+      <div class="job-card">
+        <h3>Frontend Developer</h3>
+        <p>Company: TechWave</p>
+        <p>Location: Remote</p>
+        <a href="#" class="apply-btn">Apply Now</a>
+      </div>
+      <div class="job-card">
+        <h3>UI/UX Designer</h3>
+        <p>Company: PixelStudio</p>
+        <p>Location: Bengaluru</p>
+        <a href="#" class="apply-btn">Apply Now</a>
+      </div>
+      <div class="job-card">
+        <h3>Data Analyst</h3>
+        <p>Company: Insight Corp</p>
+        <p>Location: Mumbai</p>
+        <a href="#" class="apply-btn">Apply Now</a>
+      </div>
+    </div>
+  </section>
+  </section>
+
+
+  <section id="employer" class="dashboard">
+    <h2>Employer Dashboard</h2>
+    <p>Manage job postings and view applicants.</p>
+    <button class="btn">Post a New Job</button>
+  </section>
+
+
+  <section id="candidate" class="dashboard">
+    <h2>Candidate Dashboard</h2>
+    <p>Manage your profile and job applications.</p>
+    <button class="btn">View Applications</button>
+  </section>
+
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@jobboard.com</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Job Board. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

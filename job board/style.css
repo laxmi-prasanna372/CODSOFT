@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f8f9fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+
+header .container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #007bff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+}
+
+.header-buttons a {
+  text-decoration: none;
+  margin-left: 15px;
+  padding: 8px 18px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.login {
+  color: #007bff;
+  border: 1px solid #007bff;
+}
+
+.post-job {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+}
+.hero {
+  background: linear-gradient(135deg, #007bff, #00b4ff);
+  color: #fff;
+  text-align: center;
+  padding: 120px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.hero h2 {
+  font-size: 22px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+.hero h1 span {
+  color: #00ffb3;
+}
+
+.hero p {
+  font-size: 16px;
+  margin-bottom: 25px;
+  opacity: 0.95;
+}
+
+.upload-btn {
+  background: #00ffb3;
+  color: #000;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.upload-btn:hover {
+  transform: translateY(-2px);
+}
+
+.search-section {
+  background: #fff;
+  padding: 25px 5%;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  width: 90%;
+  max-width: 1100px;
+  margin: -40px auto 60px;
+  position: relative;
+  z-index: 10;
+}
+
+.search-section form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.search-section input,
+.search-section select {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 220px;
+  outline: none;
+}
+
+.search-section button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.search-section button:hover {
+  background: #0056d6;
+}
+
+.job-listings {
+  text-align: center;
+  padding: 60px 10%;
+  background: #f8f9fb;
+}
+
+.job-listings h2 {
+  font-size: 32px;
+  color: #007bff;
+  margin-bottom: 30px;
+}
+
+.jobs-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 25px;
+}
+
+.job-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: left;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.job-card h3 {
+  font-size: 20px;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+.job-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.job-card button {
+  margin-top: 10px;
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.job-card button:hover {
+  background: #218838;
+}
+
+.dashboard {
+  padding: 60px 10%;
+  text-align: center;
+  background: #eaf5ff;
+  margin-top: 50px;
+  border-top: 3px solid #007bff;
+}
+
+.dashboard h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.dashboard .btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.dashboard .btn:hover {
+  background: #0056d6;
+}
+
+.contact {
+  padding: 50px 10%;
+  text-align: center;
+  background: #ffffff;
+}
+
+.contact h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+
+footer {
+  background: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+
+@media (max-width: 768px) {
+  header .container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .search-section form {
+    flex-direction: column;
+  }
+
+  .search-section input,
+  .search-section select {
+    width: 100%;
+    max-width: 350px;
+  }
+}
