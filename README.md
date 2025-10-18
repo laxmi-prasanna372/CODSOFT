@@ -9,7 +9,8 @@ Through these projects, I gained experience in:
 - Designing clean, attractive, and user-friendly interfaces  
 - Building functional web pages using HTML, CSS, and JavaScript  
 - Implementing responsive layouts for different devices  
-- Strengthening problem-solving and logical thinking skills  
+- Strengthening problem-solving and logical thinking skills.
+  
 The repository consists of five main projects:
 > **Calculator**, **Landing Page**, **Portfolio Website**, **Job Board**, and **Online Quiz Maker**
 Each project was an opportunity to learn, experiment, and grow as a web developer. 
