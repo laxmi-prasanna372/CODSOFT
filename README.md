@@ -1,9 +1,9 @@
 # Codsoft Internship Projects
 Welcome to my **Codsoft Internship Repository** 
-This repository contains all the **Level 1 tasks** I completed during my **Codsoft Web Development Internship**.  
+This repository contains all the **Level  tasks** I completed during my **Codsoft Web Development Internship**.  
 Each project demonstrates my practical skills in **HTML, CSS, and JavaScript**.
 ##  Introduction
-This repository includes all my **Level 1 projects** developed during the **Codsoft Web Development Internship**.  
+This repository includes all my **Level projects** developed during the **Codsoft Web Development Internship**.  
 Each project highlights my understanding of **frontend web development** and showcases how I applied different technologies to create interactive and responsive web applications.
 Through these projects, I gained experience in:
 - Designing clean, attractive, and user-friendly interfaces  
@@ -16,7 +16,6 @@ Each project was an opportunity to learn, experiment, and grow as a web develope
 ## Projects Overview
 ## 1. Calculator
 A simple and responsive calculator built using **HTML, CSS, and JavaScript**.
-**Features:**
 - Perform basic arithmetic operations (Add, Subtract, Multiply, Divide)
 - Clear and delete buttons
 - Keyboard support
@@ -24,7 +23,6 @@ A simple and responsive calculator built using **HTML, CSS, and JavaScript**.
 A clean interface where users can perform quick and easy calculations.
 ###  2. Landing Page
 An elegant landing page designed to enhance layout and styling skills.
-**Features:**
 - Modern and minimal design  
 - Fully responsive  
 - Smooth scrolling and animations  
@@ -32,7 +30,6 @@ An elegant landing page designed to enhance layout and styling skills.
 A creative single-page layout that demonstrates good UI/UX practices.
 ###  3. Portfolio Website
 A professional portfolio website showcasing my projects, skills, and achievements.
-**Features:**
 - About Me and Skills section  
 - Projects gallery  
 - Resume download button  
@@ -41,7 +38,6 @@ A professional portfolio website showcasing my projects, skills, and achievement
 A personal website that reflects my journey and web development skills.
 ###  4. Job Board
 A mini job board web application where users can browse job listings.
-** Features:**
 - List of job openings with position, company, and location  
 - Search and filter options  
 - Card-based design  
@@ -49,7 +45,6 @@ A mini job board web application where users can browse job listings.
 A functional web app that simulates a real-world job search platform.
 ###  5. Online Quiz Maker
 An interactive quiz app that allows users to test their knowledge.
-** Features:**
 - Multiple-choice questions  
 - Score tracking system  
 - Timer functionality  
