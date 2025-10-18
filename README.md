@@ -21,20 +21,14 @@ A simple and responsive calculator built using **HTML, CSS, and JavaScript**.
 - Clear and delete buttons
 - Keyboard support
 - Responsive and modern UI
-** Tech Stack:**  
-`HTML`, `CSS`, `JavaScript`
-** Preview:**  
 A clean interface where users can perform quick and easy calculations.
 ###  2. Landing Page
 An elegant landing page designed to enhance layout and styling skills.
-** Features:**
+**Features:**
 - Modern and minimal design  
 - Fully responsive  
 - Smooth scrolling and animations  
-- Organized sections (Header, Services, About, Contact)
-** Tech Stack:**  
-`HTML`, `CSS`, `JavaScript`.
-**Preview:**  
+- Organized sections (Header, Services, About, Contact).
 A creative single-page layout that demonstrates good UI/UX practices.
 ###  3. Portfolio Website
 A professional portfolio website showcasing my projects, skills, and achievements.
@@ -43,10 +37,7 @@ A professional portfolio website showcasing my projects, skills, and achievement
 - Projects gallery  
 - Resume download button  
 - Contact form with validation  
-- Responsive layout
-**Tech Stack:**  
-`HTML`, `CSS`, `JavaScript`.
-** Preview:**  
+- Responsive layout  
 A personal website that reflects my journey and web development skills.
 ###  4. Job Board
 A mini job board web application where users can browse job listings.
@@ -55,9 +46,6 @@ A mini job board web application where users can browse job listings.
 - Search and filter options  
 - Card-based design  
 - Responsive for all devices
-**Tech Stack:**  
-`HTML`, `CSS`, `JavaScript`.
-**Preview:**  
 A functional web app that simulates a real-world job search platform.
 ###  5. Online Quiz Maker
 An interactive quiz app that allows users to test their knowledge.
@@ -67,9 +55,6 @@ An interactive quiz app that allows users to test their knowledge.
 - Timer functionality  
 - User-friendly interface  
 - Responsive for mobile and desktop
-** Tech Stack:**  
-`HTML`, `CSS`, `JavaScript`.
-** Preview:**  
 A fun and interactive quiz experience to strengthen logic and web skills.
 ## Thank You
 I would like to express my sincere gratitude to Codsoft for providing this wonderful internship opportunity.
